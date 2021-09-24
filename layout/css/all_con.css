@@ -1,0 +1,126 @@
+body{
+    font-family: 'Cairo', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.orders .intro_img{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+.orders .intro_text{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Cairo', sans-serif;
+    margin-bottom: 0;
+}
+.orders .item{
+    min-height: 760px;
+    border: 1px solid #ccc;
+    margin-bottom: 40px;
+    padding: 0 20px;
+    border-radius: 15px;
+    box-shadow: 1px 3px 6px 1px rgba(53, 54, 102, .3);
+    padding-bottom: 20px;
+}
+.orders .item .item_img{
+    width: 120px;
+    display:block;
+    margin:40px auto;
+    padding-bottom: 10px;
+}
+.orders .item .item_header{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 900;
+    font-family: 'Cairo', sans-serif;
+    margin-top: 0;
+    padding-bottom: 15px;
+}
+.orders .item .item_body{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Cairo', sans-serif;
+    margin-top: 0;
+}
+.orders .item .item_body span{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Cairo', sans-serif;
+}
+.orders .item .item_body .serial{
+    font-size: 20px;
+    font-weight: 900;
+    color:#1F2DCE;
+    font-family: 'Cairo', sans-serif;
+    display: inline-block;
+    padding: 15px 0;
+    text-align: center;
+}
+.orders .item .del_btn{
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    width: 50%;
+    margin-bottom: 20px;
+}
+input[type='text'],
+input[type='email'],
+input[type='tel'],
+ textarea {
+  width: 100%;
+  font-family: 'Cairo', sans-serif;
+  padding: 12px 20px;
+  color: #000;
+  outline: none;
+  border:1px solid #ced4da
+}
+.seller{
+    border: 1px solid #bbb;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    box-shadow: 1px 3px 6px 1px rgba(53, 54, 102, .3);
+    background-image: url("../../img/background\ 1.jpg");
+    margin-bottom: 50px;
+}
+.seller .overlay{
+    background-color: rgba(255,255,255,.7);
+    padding: 40px;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+/*start footer*/
+.footer{
+    text-align: center;
+    background-color: rgba(16, 13, 121,1);
+    padding: 15px 0;
+    margin-top: 0px;
+    font-weight: 500;
+}
+.footer .footer_text{
+    font-size: 14px;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+.footer a{
+    font-size: 16px;
+    color: gold;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    padding-right: 5px;
+}
+@media(max-width:775px){
+    .footer .footer_text{
+        font-size: 12px;
+    }
+    .footer a{
+        font-size: 13px;
+    }
+}
+/*end footer*/

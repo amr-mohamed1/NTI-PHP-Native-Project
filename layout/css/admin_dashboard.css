@@ -1,0 +1,114 @@
+/*start framework*/
+body{
+    font-family: 'Cairo', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*start header*/
+.head{
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+}
+.dashboard .header_item{
+    border: 1px solid #ccc;
+    box-shadow: 1px 3px 6px 1px rgba(53, 54, 102, .3);
+    font-family: 'Cairo', sans-serif;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.dashboard .header_item p{
+    font-weight: 900;
+    font-size: 22px;
+    color:#222;
+    letter-spacing: 1px;
+    
+}
+.dashboard .header_item span{
+    font-size: 55px;
+    font-weight: 400;
+    display: block;
+    color:#444;
+    padding: 25px 0;
+}
+.dashboard .header_item img{
+    width: 100px;
+    display: block;
+    margin: 20px auto;
+    padding-bottom: 20px;
+
+}
+
+
+/*start panel*/
+
+.dashboard .panel{
+    background-color: #eaeaea;
+    margin-top: 50px;
+}
+.dashboard .panel .panel_header{
+    padding: 5px 20px;
+    border: 1px solid #ccc;
+    box-shadow: 6px -4px 14px 3px rgba(53, 54, 102, .3)
+}
+.dashboard .panel .panel_header i{
+    font-size: 22px;
+}
+.dashboard .panel .panel_header span{
+    font-size: 22px;
+    padding-left: 10px;
+    
+}
+.dashboard .panel .panel_body{
+    padding: 5px 20px;
+    background-color: #fff;
+    border: 1px solid #cacaca;
+}
+.dashboard .panel .panel_body .table td, .table th{
+    vertical-align: inherit;
+    font-weight: 700;
+}
+.dashboard .panel .panel_body .table-striped tbody tr{
+
+    border: 1px solid #bbb;
+    border-radius: 50px;
+}
+.dashboard .panel .panel_body .table td, .table th{
+    border: none;
+}
+
+
+/*start footer*/
+.footer{
+    text-align: center;
+    background-color: rgba(16, 13, 121,1);
+    padding: 15px 0;
+    margin-top: 0px;
+    font-weight: 500;
+}
+.footer .footer_text{
+    font-size: 14px;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+.footer a{
+    font-size: 16px;
+    color: gold;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    padding-right: 5px;
+}
+@media(max-width:775px){
+    .footer .footer_text{
+        font-size: 12px;
+    }
+    .footer a{
+        font-size: 13px;
+    }
+}
+/*end footer*/

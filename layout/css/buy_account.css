@@ -1,0 +1,178 @@
+body{
+    font-family: 'Cairo', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    font-family: 'Cairo', sans-serif;
+}
+.header{
+    height: 450px;
+    width: 100%;
+    background-image: url("../../img/home-banner.jpg");
+    background-size: cover;
+    background-position: center bottom;
+}
+.header .overlay{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(16, 13, 121, 0.6);
+    z-index: 9999;
+}
+.header img{
+    width:150px;
+    padding-top:50px;
+    padding-bottom:30px;
+    display: block;
+    margin: auto;
+}
+.header .header_text{
+    font-family: 'Cairo', sans-serif;
+    color:#fff;
+    text-align: center;
+    padding: 0 20px;
+    word-spacing: 3px;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.header ol{
+    background-color: transparent;
+    text-align: center;
+    display: block;
+    margin: auto;
+    direction: rtl;
+}
+.header ol li{
+    display: inline;
+    font-size: 15px;
+    font-weight: 700;
+    color:#ccc !important;
+}
+.header ol li a{
+    display: inline;
+    font-size: 20px;
+    color:rgb(255, 255, 255) !important;
+    text-decoration: none;
+}
+.header ol li a:hover{
+    text-decoration: underline;
+}
+.order_found .notes{
+    display:block;
+    margin: auto;
+    width:100px;
+    margin-top: 40px;
+}
+.order_found .account_header{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: 800;
+}
+.order_found .account_desc{
+    width: 80%;
+    margin: auto;
+    border: 2px solid #999;
+    padding-top: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    background-image: url("../../img/home-banner.jpg");
+    color:#fff;
+    padding-left: 20px;
+}
+.order_found .account_desc .title{
+    font-size: 18px;
+    font-weight: 900;
+    color:#fff;
+    letter-spacing: 1.5px;
+}
+.order_found .account_desc .account_name,.order_found .account_desc .account_owner,.order_found .account_desc .account_id,.order_found .account_desc .account_price,.order_found .account_desc .account_notes,.order_found .account_desc .account_opNumber{
+    display: inline-block;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color:#eee;
+    letter-spacing: 1px;
+}
+.track .track_header{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 35px;
+    font-weight: 800;
+    margin-top: 0;
+    font-family: 'Cairo', sans-serif;
+}
+.track .steps{
+    margin: auto;
+    width:100px;
+    margin-top: 40px;
+    font-family: 'Cairo', sans-serif;
+}
+.track .track_desc{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0;
+}
+.track{
+    padding-bottom: 80px;
+}
+.track .ordered{
+    width: 100%;
+    font-family: 'Cairo', sans-serif;
+}
+.serial_error{
+    width: 800px;
+    display: block;
+    margin:auto;
+    padding-bottom:50px
+}
+.serial_text{
+    text-align: center;
+    font-size: 55px;
+    padding-top:20px;
+    font-weight: 900;
+    color:tomato
+}
+@media(max-width:775px){
+.serial_text{
+    font-size: 35px;
+}
+    .serial_error{
+        width: 350px;
+    }
+}
+
+/*start footer*/
+.footer{
+    text-align: center;
+    background-color: rgba(16, 13, 121,1);
+    padding: 15px 0;
+    margin-top: 0px;
+    font-weight: 500;
+}
+.footer .footer_text{
+    font-size: 14px;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+.footer a{
+    font-size: 16px;
+    color: gold;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    padding-right: 5px;
+}
+@media(max-width:775px){
+    .footer .footer_text{
+        font-size: 12px;
+    }
+    .footer a{
+        font-size: 13px;
+    }
+}
+/*end footer*/

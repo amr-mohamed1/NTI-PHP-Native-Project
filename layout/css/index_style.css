@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+body{
+    font-family: 'Cairo', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*start framework*/
+.line{
+    display: block;
+    margin: auto;
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+/*end framework*/
+
+/*start header*/
+.section_header{
+    height: 750px;
+    background-image: url("../../img/header\ bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+}
+.section_header .overlay{
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(9, 1, 65, 0.7);
+}
+.section_header .header_text{
+    padding-top: 120px;
+    padding-right: 100px;
+}
+.section_header .header_img img{
+    width: 480px;
+    padding-top: 80px;
+    display: block;
+    margin: auto;
+}
+.section_header .header_text h3{
+    text-align: left;
+    font-size: 55px;
+    font-weight: 600;
+    font-family: 'Roboto Mono', monospace;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.section_header .header_text p{
+    text-align: left;
+    color:#eee;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+}
+.section_header .header_text button{
+    display: block;
+    font-family: 'Cairo', sans-serif;
+    float:left;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 13px 50px;
+    margin-top: 20px;
+    background-image: -webkit-linear-gradient(0deg, #f61daf 30%, #691cff 70%);
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+    transition: all .5s ease !important;
+}
+.section_header .header_text button:hover{
+    background-image: -webkit-linear-gradient(0deg, #f61daf 20%, #691cff 80%);
+    
+    transform: scale(1.1,1.1);
+}
+.section_header .header_text button a{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+@media(max-width:775px){
+    .section_header .header_img img{
+        display: none;
+    }
+    .section_header .header_text{
+        padding-right: 20px;
+        text-align: center;
+    }
+}
+/*end header*/
+
+/*start about us*/
+.advantages{
+    padding-top: 60px;
+    padding-bottom: 50px;
+
+}
+.advantages .intro{
+    font-size: 30px;
+    color: #1c0f77;
+    text-align: center;
+    font-weight: 700;
+}
+.advantages .intro i{
+    font-size: 25px;
+    margin-left: 10px;
+}
+.advantages .advantages_img{
+    padding: 20px 0;
+    margin-bottom: 25px;
+}
+.advantages .advantages_img img{
+    width: 50px;
+    margin-bottom: 25px;
+    display: block;
+    margin: auto;
+}
+.advantages .advantages_img h3{
+    font-size: 22px;
+    text-align: center;
+    color: #222;
+    font-family: 'Raleway', sans-serif;
+}
+.advantages .advantages_img:nth-child(2){
+   border-right: 1px solid #999; 
+   border-left: 1px solid #999; 
+}
+
+@media (max-width:770px){
+    .advantages .advantages_img:nth-child(2){
+        border-right: unset; 
+        border-left: unset; 
+        border-top: 1px solid #999; 
+        border-bottom: 1px solid #999; 
+     }
+}
+
+
+/*end about us*/
+
+/*start our services*/
+.services{
+    background-image: url("../../img/background\ 1.jpg");
+    margin-bottom: 20px;
+}
+.services .overlay{
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(247,241,249,.7);
+}
+.services .services_intro{
+    font-size: 30px;
+    color: #1c0f77;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 60px;
+}
+.services .services_intro i{
+    font-size: 25px;
+    margin-left: 10px;
+}
+.services .item {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 20px 10px;
+    margin: 20px 10px;
+    box-shadow: 1px 3px 6px 1px rgba(53, 54, 102, .3);
+    transition: all .3s ease-in-out;
+    background-color: #fff;
+    cursor: pointer;
+    min-height: 380px;
+}
+
+.services .item img{
+    width: 120px;
+    display: block;
+    margin: auto;
+}
+.services .item h3{
+    font-size: 21px;
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    padding: 10px 0;
+}
+.services .item p{
+    font-size: 18px;
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    padding: 10px 0;
+}
+/*end our services*/
+
+
+
+/*start caro*/
+
+.caro .intro{
+    font-size: 30px;
+    color: #1c0f77;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 60px;
+}
+.caro .intro i{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+/*end caro*/
+
+
+/*start footer*/
+.footer{
+    text-align: center;
+    background-color: rgb(10, 8, 75);
+    padding: 20px 0;
+    margin-top: 50px;
+    font-weight: 500;
+}
+.footer .footer_text{
+    font-size: 14px;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+.footer a{
+    font-size: 16px;
+    color: gold;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    padding-right: 5px;
+}
+@media(max-width:775px){
+    .footer .footer_text{
+        font-size: 12px;
+    }
+    .footer a{
+        font-size: 13px;
+    }
+}
+/*end footer*/

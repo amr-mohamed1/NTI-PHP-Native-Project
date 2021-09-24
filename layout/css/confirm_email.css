@@ -1,0 +1,22 @@
+.check_img{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    width: 400px !important;
+}
+.message{
+    text-align:center;
+    font-size: 25px;
+    color:#333;
+    font-family: 'Cairo', sans-serif;
+}
+.sign_btn{
+    display: block;
+    margin: auto;
+    width: 150px;
+    padding:8px 20px;
+    border-radius: 25px;
+    background-color: #007bff;
+    color:#fff;
+    box-shadow: 0px 0px 18px #007bff;
+}
